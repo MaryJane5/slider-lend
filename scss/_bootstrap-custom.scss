@@ -1,0 +1,98 @@
+// custom variables and override bootstrap variables
+
+$body-bg: #fff;
+
+$white:  #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #afb8d6;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:  #000 !default;
+
+$light-blue: #afb8d6;
+$dark-blue: #324380;
+$blue:    #6071ad;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #f58233;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$colors: (
+	blue: $blue,
+	indigo: $indigo,
+	purple: $purple,
+	pink: $pink,
+	red: $red,
+	orange: $orange,
+	yellow: $yellow,
+	green: $green,
+	teal: $teal,
+	cyan: $cyan,
+	white: $white,
+	gray: $gray-600,
+	gray-dark: $gray-800
+);
+
+$theme-colors: (
+	primary: $blue,
+	secondary: $gray-600,
+	success: $green,
+	info: $cyan,
+	warning: $orange,
+	danger: $red,
+	light: $gray-100,
+	dark: $gray-800
+);
+
+$spacer:   1rem !default;
+$spacers: (
+	0: 0,
+	1: ($spacer * .25),
+	2: ($spacer * .5),
+	3: $spacer,
+	4: ($spacer * 1.5),
+	5: ($spacer * 3),
+	6: ($spacer * 4.5),
+	7: ($spacer * 6),
+	8: ($spacer * 7.5),
+	9: ($spacer * 9),
+	10: ($spacer * 10.5)
+);
+
+$base-min-width: 320px;
+
+// This is the default html and body font-size for the base rem value.
+$rem-base: 16px;
+
+// Body
+
+$body-color: $blue;
+
+// Links
+
+$link-color: $orange;
+
+// Fonts
+$font-family-sans-serif: 'Raleway', "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$headings-font-weight: 200;
+$font-family-base: $font-family-sans-serif;
+$line-height-base: 1.2;
+
+// Pagination
+
+$pagination-color: $light-blue;
+$pagination-bg: $light-blue;
+$pagination-border-width: 0;
+$pagination-border-color: transparent;
+$pagination-hover-bg: $blue;
+$pagination-active-bg: $pagination-hover-bg;
